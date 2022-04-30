@@ -1,7 +1,9 @@
 # Analyzing Consumer Sentiment  with NLP, Scikit-Learn & Keras
 Author: Pharoah Evelyn  
+<p align="center">
 ![Linear SVC](./images/Twitter_Banner.png)
-
+</p>
+    
 ## Overview
 
 #### This notebook aims to analyze Twitter data for sentiment and build a model that can best predict Twitter sentiment.
