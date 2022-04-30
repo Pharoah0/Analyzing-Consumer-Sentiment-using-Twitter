@@ -1,7 +1,7 @@
 # Analyzing Consumer Sentiment  with NLP, Scikit-Learn & Keras
 Author: Pharoah Evelyn  
 <p align="center">
-![Linear SVC](./images/Twitter_Banner.png)
+    <img src="http://some_place.com/image.png" />
 </p>
     
 ## Overview
