@@ -45,7 +45,6 @@ Below are the results!
 
 #### How does Apple compare to Google in sentiment analysis?
 Google & Apple appeared to have strikingly similar levels of positive sentiment over their products, so there isn't a real winner here.
-![Sentiment_Ratios](./images/Sentiment_Ratios.png)
 <img src="https://github.com/Pharoah0/Analyzing-Consumer-Sentiment-with-NLP-Scikit-Learn-and-Keras/blob/main/images/Sentiment_Ratios.png" width="50%" height="50%">
 
 #### What are people most excited about?
@@ -58,7 +57,7 @@ All Apple words -
 
 Apple words without products -
 ![Apple_Words_No_Product](./images/Apple_Words_No_Product.png)
-<img src="https://github.com/Pharoah0/Analyzing-Consumer-Sentiment-with-NLP-Scikit-Learn-and-Keras/tree/main/images#:~:text=Apple_Words_No_Product.png" width="50%" height="50%">
+<img src="https://github.com/Pharoah0/Analyzing-Consumer-Sentiment-with-NLP-Scikit-Learn-and-Keras/blob/main/images/Apple_Words_No_Product.png" width="50%" height="50%">
 
 Positive & Negative Apple words -
 ![Apple_Pos_and_Neg_Words](./images/Apple_Pos_and_Neg_Words.png)
@@ -70,11 +69,11 @@ Unfortunately, we can see that some apple users are experiencing issues with the
 #### For Google:
 All Google words -
 ![Google_Words](./images/Google_Words.png)
-<img src="https://github.com/Pharoah0/Analyzing-Consumer-Sentiment-with-NLP-Scikit-Learn-and-Keras/tree/main/images#:~:text=15%20minutes%20ago-,Google_Words.png,-Repo%20Upload" width="50%" height="50%">
+<img src="https://github.com/Pharoah0/Analyzing-Consumer-Sentiment-with-NLP-Scikit-Learn-and-Keras/blob/main/images/Google_Words.png" width="50%" height="50%">
 
 Google words without products -
 ![Google_Words_No_Product](./images/Google_Words_No_Product.png)
-<img src="https://github.com/Pharoah0/Analyzing-Consumer-Sentiment-with-NLP-Scikit-Learn-and-Keras/tree/main/images#:~:text=Google_Words_No_Product.png" width="50%" height="50%">
+<img src="https://github.com/Pharoah0/Analyzing-Consumer-Sentiment-with-NLP-Scikit-Learn-and-Keras/blob/main/images/Google_Words_No_Product.png" width="50%" height="50%">
 
 Positive & Negative Google words -
 ![Google_Pos_and_Neg_Words](./images/Google_Pos_and_Neg_Words.png)
