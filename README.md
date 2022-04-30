@@ -1,5 +1,5 @@
 # Analyzing Consumer Sentiment  with NLP, Scikit-Learn & Keras
-Author: Pharoah Evelyn
+Author: Pharoah Evelyn  
 ![Linear SVC](./images/Twitter_Banner.png)
 
 ## Overview
@@ -44,22 +44,20 @@ Below are the results!
 
 
 #### How does Apple compare to Google in sentiment analysis?
-Google & Apple appeared to have strikingly similar levels of positive sentiment over their products, so there isn't a real winner here.
+Google & Apple appeared to have strikingly similar levels of positive sentiment over their products, so there isn't a real winner here.  
 <img src="https://github.com/Pharoah0/Analyzing-Consumer-Sentiment-with-NLP-Scikit-Learn-and-Keras/blob/main/images/Sentiment_Ratios.png" width="50%" height="50%">
 
 #### What are people most excited about?
 It appears people are most excited about new products all around. As expected for new releases at significant events such as SXSW.
 
 #### For Apple:
-All Apple words -
-![Apple_Words](./images/Apple_Words.png)
+All Apple words -  
 <img src="https://github.com/Pharoah0/Analyzing-Consumer-Sentiment-with-NLP-Scikit-Learn-and-Keras/blob/main/images/Apple_Words.png" width="50%" height="50%">
 
-Apple words without products -
-![Apple_Words_No_Product](./images/Apple_Words_No_Product.png)
+Apple words without products -  
 <img src="https://github.com/Pharoah0/Analyzing-Consumer-Sentiment-with-NLP-Scikit-Learn-and-Keras/blob/main/images/Apple_Words_No_Product.png" width="50%" height="50%">
 
-Positive & Negative Apple words -
+Positive & Negative Apple words -  
 ![Apple_Pos_and_Neg_Words](./images/Apple_Pos_and_Neg_Words.png)
 
 We see much excitement for a popup store & its location downtown, which sells the latest products.
@@ -67,15 +65,13 @@ We see much excitement for a popup store & its location downtown, which sells th
 Unfortunately, we can see that some apple users are experiencing issues with their battery life. Some users also do not approve of Apple's new product design. Also, it seems some people are calling Apple fascist.
 
 #### For Google:
-All Google words -
-![Google_Words](./images/Google_Words.png)
+All Google words -  
 <img src="https://github.com/Pharoah0/Analyzing-Consumer-Sentiment-with-NLP-Scikit-Learn-and-Keras/blob/main/images/Google_Words.png" width="50%" height="50%">
 
-Google words without products -
-![Google_Words_No_Product](./images/Google_Words_No_Product.png)
+Google words without products -  
 <img src="https://github.com/Pharoah0/Analyzing-Consumer-Sentiment-with-NLP-Scikit-Learn-and-Keras/blob/main/images/Google_Words_No_Product.png" width="50%" height="50%">
 
-Positive & Negative Google words -
+Positive & Negative Google words -  
 ![Google_Pos_and_Neg_Words](./images/Google_Pos_and_Neg_Words.png)
 
 There is much buzz for Google Circle (a social network) in this dataset and Google Maps. We also see much mention of Marissa Mayer, a prolific businesswoman.
