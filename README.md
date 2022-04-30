@@ -1,7 +1,7 @@
 # Analyzing Consumer Sentiment  with NLP, Scikit-Learn & Keras
 Author: Pharoah Evelyn  
 <p align="center">
-    <img src="http://some_place.com/image.png" />
+    <img src="https://github.com/Pharoah0/Analyzing-Consumer-Sentiment-with-NLP-Scikit-Learn-and-Keras/blob/main/images/Twitter_Banner.png" />
 </p>
     
 ## Overview
