@@ -84,37 +84,39 @@ We can gain that though there was a bunch of positivity in our dataset of tweets
 ## Models
 For ease of viewing, the top 3 models are displayed here. For more results, please see my accompanying jupyter notebook in this repository!
 
-#### Linear SVC
-![Linear SVC](./images/SVC_Model.png)  
-Interpretation of negative sentiment with a Linear SVC
- classifier:
-* 37 True Negatives: Tweets with negative sentiment
-* 41 False Positives: Predicted tweets with positive sentiment, but they're negative
-* 21 False Negatives: Predicted tweets with negative sentiment, but they're positive
-* 379 True Positives: Tweets with positive sentiment
-
 #### Logistic Regression
 ![Logistic Regression](./images/LR_Model.png)  
 Interpretation of negative sentiment with a Logistic Regression classifier:
-* 45 True Negatives: Tweets with negative sentiment
-* 33 False Positives: Predicted tweets with positive sentiment, but they're negative
-* 32 False Negatives: Predicted tweets with negative sentiment, but they're positive
-* 368 True Positives: Tweets with positive sentiment
+* 44 True Negatives: Tweets with negative sentiment
+* 34 False Positives: Predicted tweets with positive sentiment, but they're negative
+* 33 False Negatives: Predicted tweets with negative sentiment, but they're positive
+* 367 True Positives: Tweets with positive sentiment
+
+#### Keras Model
+![Keras Model](./images/Keras_Model.png)  
+Interpretation of negative sentiment with a simple Keras model:
+* 38 True Negatives: Tweets with negative sentiment
+* 40 False Positives: Predicted tweets with positive sentiment, but they're negative
+* 41 False Negatives: Predicted tweets with negative sentiment, but they're positive
+* 359 True Positives: Tweets with positive sentiment
 
 #### Keras Model with Parameter Tuning
-![Keras Model with Parameter Tuning](./images/Keras_Model.png)  
-Interpretation of negative sentiment with a simple Keras model:
-* 39 True Negatives: Tweets with negative sentiment
-* 39 False Positives: Predicted tweets with positive sentiment, but they're negative
-* 40 False Negatives: Predicted tweets with negative sentiment, but they're positive
-* 360 True Positives: Tweets with positive sentiment
+![Keras Model with Parameter Tuning](./images/Keras_Model_2.png)  
+Interpretation of negative sentiment with a Keras model with some parameter tuning:
+* 47 True Negatives: Tweets with negative sentiment
+* 31 False Positives: Predicted tweets with positive sentiment, but they're negative
+* 44 False Negatives: Predicted tweets with negative sentiment, but they're positive
+* 356 True Positives: Tweets with positive sentiment
 
 ## Conclusions
-#### The best model is a Logistic Regression model.
+#### The best model is a Keras Model with Parameter Tuning.
 
 This is because: 
 * The confusion matrix reports a higher correct classification of 0: negative sentiment.
-* Though the Keras models have slightly higher accuracy scores, none performed as well as the Logistic Regression at correctly classifying negative sentiment while having lower amounts of false positives & negatives.
+    * The vanilla Keras model presents a higher peak validation accuracy score of 88.93% (vs. 86.45% after parameter tuning)
+* The Scikit-Learn models all performed well on the accuracy, but none of their accuracy scores performed better than either Keras model.
+    * However, the vanilla Linear SVC model comes close at 86.82% accuracy.
+* The Logistic Regression model is the second-best performing model for predicting negative sentiment, with 44 correct predictions.
 
 ## Recommendations
 #### Usage for our model:
