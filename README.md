@@ -116,8 +116,8 @@ Interpretation of negative sentiment with a Keras model with some parameter tuni
 This is because: 
 * The confusion matrix reports a higher correct classification of 0: negative sentiment.
     * The vanilla Keras model presents a higher peak validation accuracy score of 88.93% (vs. 86.45% after parameter tuning)
-* The Scikit-Learn models all performed well on the accuracy, but none of their accuracy scores performed better than either Keras model.
-    * However, the vanilla Linear SVC model comes close at 86.82% accuracy.
+* The Scikit-Learn models all performed well on the accuracy, but most of their accuracy scores don’t perform better than either Keras model.
+    * The Linear SVC model has 86.82% accuracy, beating the tuned Keras model.
 * The Logistic Regression model is the second-best performing model for predicting negative sentiment, with 44 correct predictions.
 
 ## Recommendations
